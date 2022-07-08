@@ -3,6 +3,7 @@ import React from 'react';
 import styles from './Contacts.module.css';
 
 const Contacts = ({ contacts, onDeleteContact }) => {
+  console.log(contacts);
   return (
     <ul className={styles['Contacts__list']}>
       {contacts.map(({ name, number, id }) => (

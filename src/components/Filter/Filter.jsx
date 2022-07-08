@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import styles from './Filter.module.css';
 
 const Filter = ({ filter, onChange }) => {
+  console.log({ filter });
   return (
     <label className={styles['InputForm__label']} htmlFor={filter}>
       Find contacts by name
